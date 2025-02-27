@@ -44,6 +44,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.Playwright": {
+              "target": "Package",
+              "version": "[1.50.0, )"
+            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[4.29.0, )"
